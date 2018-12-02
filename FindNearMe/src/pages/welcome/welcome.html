@@ -1,0 +1,40 @@
+<ion-slides pager>
+
+  <!-- This is first slider -->
+   <ion-slide style= "background-image: url(../assets/imgs/city.jpg)">
+   <ion-icon ios="ios-globe" md="md-globe" style="zoom:5.0;"></ion-icon>
+   <h1 style="color: #33012b">What are you searching for?</h1>
+   <p style="font-family:open-sans; font-size:14px; color:#a091b9">Maybe this app could
+  <b>help</b> you <i>find </i>what you need!</p>
+   </ion-slide>
+
+   <!-- This is second slider -->
+   <ion-slide style="background-image: url(../assets/imgs/sam6.jpg)">
+      <ion-icon ios="ios-laptop" md="md-laptop" style="zoom:5.0;"></ion-icon>
+      <h1 style="color: #ebebeb">This is plain sample text</h1>
+      <p style="font-family:open-sans; font-size:14px; color:#ebebeb"> This is a test text
+      <b>to</b> my site, <i>which I made!</i>!</p>
+      </ion-slide>
+
+      <!-- This is third slider -->
+   <ion-slide style="background-image: url(../assets/imgs/test4.jpg)">
+      <ion-icon ios="" md="" style="zoom:5.0;"></ion-icon>
+      <h1 style="color: #ebebeb"></h1>
+      <p style="font-family:open-sans; font-size:14px; color:#ebebeb">
+      <b></b><i></i>!</p>
+      </ion-slide>
+
+      <ion-slide class="bg-image">
+        <h1 style="color:#ebebeb">Welcome to My project</h1>
+        <h4 style="color:#ebebeb">This was not easy...</h4>
+        <h2 class="padding" style="font-family:open-sans; font-size:14px; color:#ebebeb">
+        Click below to find out more!
+        </h2>
+        
+
+         <div style="position:absolute; bottom: 120p; text-align:center; z-index:1000; width:100%">
+            <button ion-button color="myWhite" round outline [navPush]="nextPage">Let's go!</button>
+        </div>
+       
+   </ion-slide>
+  </ion-slides>

@@ -1,0 +1,29 @@
+page-welcome {
+
+
+     //swipe small icons color in white.
+    .swiper-pagination-bulletactive {
+        background: white;
+    }
+
+   // .div1 {
+   //     background:url('../assets/imgs/test1.jpg');
+   //     background-repeat: no-repeat;
+   //     background-position: center;
+   //     background-size: 100%;  }
+    
+  
+
+    //IMG background
+    .bg-image {
+        background-image: url('../assets/imgs/1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    // Padding in bottom of welcome
+    .padding {
+        padding-bottom: 100px;
+    }
+}
